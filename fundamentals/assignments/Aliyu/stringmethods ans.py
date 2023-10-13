@@ -7,7 +7,7 @@ numbers="7"
 argument="messi has {} balln d`or".format(numbers)
 print(argument)
 
-#index:it is used to access individual valuues within a string
+#index:it is used to access individual values within a string
 text="she has a baby"
 print(text[3:7])
 
@@ -55,6 +55,7 @@ print(nonsense.strip("$"))
 
 #join:it is used to merge elements of either a list or tuple into a single string
 merge=["join","us","please"]
+print(merge.join())
 
 #istitle:it checks if each word in a string starts with an uppercase
 conclusion="I Am Tired"
