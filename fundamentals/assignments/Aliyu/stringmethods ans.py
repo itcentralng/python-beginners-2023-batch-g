@@ -55,7 +55,7 @@ print(nonsense.strip("$"))
 
 #join:it is used to merge elements of either a list or tuple into a single string
 merge=["join","us","please"]
-print(merge.join())
+print("-".join(merge))
 
 #istitle:it checks if each word in a string starts with an uppercase
 conclusion="I Am Tired"
