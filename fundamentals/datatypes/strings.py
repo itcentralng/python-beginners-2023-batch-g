@@ -40,3 +40,10 @@ phone2 = "+233701231212"
 nigerian_ext = "+234"
 print(phone.startswith(nigerian_ext))
 print(phone2.startswith(nigerian_ext))
+
+# STRING OPERATIONS
+print(player[0])
+print(player[0:6])
+print(player[0:6:3])
+print(player[::3])
+print(player[::-1])
