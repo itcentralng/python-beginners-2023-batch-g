@@ -3,9 +3,8 @@ text="he is a tall boy"
 print(text.find("is"))
 
 #format:formats a specific value in a string
-numbers="7"
-argument="messi has {} balln d`or".format(numbers)
-print(argument)
+argument="messi has {} balln d`or"
+print(argument.format("7"))
 
 #index:it is used to access individual values within a string
 text="she has a baby"
