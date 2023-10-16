@@ -1,7 +1,7 @@
 # Q1. Example 2 examples for each of the following:
  # - String
-#town="zaria"
-#food="rice"
+town="zaria"
+food="rice"
 # - Tuple
 names=("ameer","ameera","adil")
 cars="benz","ferrari","tesla"
@@ -19,4 +19,9 @@ itisraining=False
 #tuples are slightly faster than a list in certain operations
 #lists are defined 
 
-
+print(town)
+print(names)
+print(numbers)
+print(person)
+print(itiscold)
+print(itisraining)
