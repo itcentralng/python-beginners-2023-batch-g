@@ -3,7 +3,7 @@ text="he is a tall boy"
 print(text.find("is"))
 
 #format:formats a specific value in a string
-argument="messi has {} balln d`or"
+gargument="messi has {} balln d`or"
 print(argument.format("7"))
 
 #index:it is used to access individual values within a string
