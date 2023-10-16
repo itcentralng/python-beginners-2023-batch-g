@@ -1,4 +1,4 @@
-#1.extend:it us to add elements to an iterable to an existing list
+th#1.extend:it used to add elements to an iterable to an existing list
 cars=["ferrari","bugatti","benz"]
 cars2=["toyota","bmw"]
 cars.extend(cars2)
