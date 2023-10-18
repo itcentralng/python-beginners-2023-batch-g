@@ -5,6 +5,13 @@
 
 people = ("Peter", "James", "Solomon")
 
-people = "Peter", "James", "Solomon"
+people = "Peter", "James", "Solomon", "Peter"
 
 # METHODS
+print(people.count("Peter"))
+print(people.index("Peter"))
+
+# OPERATIONS
+print(people[:2])
+print(people[::-1])
+print(people[0])
