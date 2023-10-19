@@ -15,8 +15,8 @@ list=[v,w]
 print(list)
 
 #5
-j=itiscold=False
-i=itisfoggy=True
+j=False
+i=True
 list.extend((i,j))
 print(list)
 
@@ -25,7 +25,7 @@ integer=2023
 print(integer)
 
 #7
-weight=1000
+weight=99.7
 print(weight)
 
 #8
