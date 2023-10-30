@@ -3,8 +3,8 @@
 
 # 1. extend
 items = [1, 2, 3, 2]
-# items.extend("aliyu".upper())
-# items.extend(["A", "B", "C"])
+items.extend("aliyu".upper())
+items.extend(["A", "B", "C"])
 items.extend(["Test", 50, 50, 1.5, True, False, [1, 2], (3, 4), {"name":"Omale"}])
 print(items)
 # 2. pop
