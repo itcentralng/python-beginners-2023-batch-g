@@ -7,4 +7,3 @@ elif age<18 :
     print("UNDER AGE")
 else:
     print("PROPER AGE")
-    
