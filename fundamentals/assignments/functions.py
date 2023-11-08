@@ -3,7 +3,9 @@
 # power of 3. e.g. yourfunction(1, 2, 3) => 1, 6, 27
 
 # Q2. Write a function that takes a list of 6 numbers and return
-# all the even numbers in a new list
+# all the even numbers in a new list 
+# e.g. yourfunction([1,2,3,4,5,6]) => [2, 4, 6]
 
 # Q3. Write a function that takes a string of alphabets and prints out
 # all the vowels found in the string without repetition.
+# e.g. yourfunction('mystring is here') => 'ie'
