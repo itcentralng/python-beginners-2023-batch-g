@@ -9,3 +9,9 @@
 # Q3. Write a function that takes a string of alphabets and prints out
 # all the vowels found in the string without repetition.
 # e.g. yourfunction('mystring is here') => 'ie'
+
+#Q4. Write a function that takes a list of dictionaries and returns
+# an ordered list of dictionaries where the dictionary with the highest score
+# comes first while the one with the lowest score comes last.
+# e.g. mylist = [{'score':20, 'name':'Ibrahim'}, {'score':40, 'name':'Sani'}]
+# yourfunction(mylist) => [{'score':40, 'name':'Sani'}, {'score':20, 'name':'Ibraim'}]
