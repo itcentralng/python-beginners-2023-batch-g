@@ -93,16 +93,43 @@ def listSorter(scores: list):
 
 listSorter([{'score':20, 'name':'Ibrahim'}, {'score':10, 'name':'Sani'}, {'score':30, 'name':'Zainab'}])
 
+print("\n\n")
+
 # Q1. Create a function that will take a string of alphabets and returns a list 
 # of non repeating consonant using list comprehension.
 # e.g. yourfunc("musa") => ["m", "s"]
 # Bonus point if you can return it this way => "ms"
 
-# Q2. Write a function that takes a list of numbers and return a even numbers as they are
+# Q2. Write a function that takes a list of numbers and return all even numbers as they are
 # and all odd numbers doubled. e.g. yourfunc([1, 2, 3, 4]) => [2, 2, 6, 4]
 
+def doubler(numbers):
+    """
+    `numbers`: expecting a list of integers
+    """
+    updated_numbers = []
+    for number in numbers:
+        if number % 2 == 0:
+            updated_numbers.append(number)
+        else:
+            updated_numbers.append(number*2)
+    return updated_numbers
+
+x = doubler([1, 2, 3, 4])
+print(x)
+
+
 # Q3. Write a function that takes a long integer and returns an intergger
-#  with each number doubled. e.g. yourfun(234) => 468
+#  with each number doubled. e.g. yourfun(5109) => 102018
+
+def digitDoubler(number):
+    numbers = []
+    for n in str(number):
+        numbers.append(str(int(n) * 2))
+    return "".join(numbers)
+
+x = digitDoubler(5109112)
+print(x)
 
 # Q4. Write a fuction that takes a list of dictionaries and 
 # return a list sorted alphabetically by name 
