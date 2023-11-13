@@ -15,3 +15,6 @@ print(function.center(14,"£"))
 #count
 country="america"
 print(country.count("m"))
+
+y="eddy"
+print(y.split())
