@@ -6,7 +6,6 @@ def doubler(num1, num2, num3):
     num2 *= 3
     num3 **= 3
     print("{}, {}, {}".format(num1, num2, num3))
-
 doubler(2, 4, 6)
 doubler(1, 2, 3)
 
