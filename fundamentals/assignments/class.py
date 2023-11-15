@@ -188,3 +188,8 @@ shop1.sale('Rice', 10)
 shop1.find_transaction(2)
 
 shop1.report()
+
+# Q3. Create a Game class that allows users to create their own games
+# your class should allow users to create from a list of at least one game.
+# You can decide the game to design in your class.
+# Your game must be rebost enough for users to interact with it.
