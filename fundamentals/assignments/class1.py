@@ -199,9 +199,7 @@ from random import choice
 class Game:
     def __init__(self, name):
         """
-        Create games by choosing `name` and `type` of game.
-
-        `type` can be: Q&A or Guess
+        Create games by choosing `name`.
         """
         self.name = name
         self.type = type
@@ -290,3 +288,6 @@ thirdGame.add_questions(questions1)
 thirdGame.add_questions(questions2)
 
 thirdGame.play()
+
+# Q4. Upgrade the game class to manage players:
+# there names, their scores and a leaderboard
