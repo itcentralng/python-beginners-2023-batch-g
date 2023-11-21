@@ -94,3 +94,11 @@ print(dog1.bark())
 print(dog1.bark())
 print(dog1.energy_level)
 print(dog1.get_info())
+
+print("\n\n\n\n\n")
+
+p1 = Person('Habu', '12-01-1985')
+p2 = Person('Musa', '12-01-1990')
+
+print(p1.get_age(2023))
+print(p2.get_age(2023))
