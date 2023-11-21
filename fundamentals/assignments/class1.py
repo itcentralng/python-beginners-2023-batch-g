@@ -202,14 +202,17 @@ class Game:
         Create games by choosing `name`.
         """
         self.name = name
-        self.type = type
         self.questions = []
+        self.players = []
 
     def add_questions(self, questions):
         self.questions.extend(questions)
         print("{} questions added to {} successfully!".format(len(questions), self.name))
 
-    def play(self):
+    def play(self, player):
+        self.players.append(
+            {'name':player, 'score':0}
+        )
         print("{}\n\nAre you ready?\nLets begin:\n".format(self.name))
         playing = True
         while playing:
@@ -223,8 +226,22 @@ class Game:
                 playing = False
             elif response.strip().lower() == question.get('answer').strip().lower():
                 print('Thats correct!')
+                self.players[-1]['score'] += 5
             else:
                 print('Opps thats wrong, the right answer is {}'.format(question.get('answer')))
+                self.players[-1]['score'] -= 3
+
+    def get_score(self, player):
+        return player['score']
+
+    def get_leaderboard(self):
+        self.players.sort(key=self.get_score, reverse=True)
+        result = "Player------------------------Score"
+        for player in self.players:
+            # result += "\n{}-------------------------{}".format(player.get('name'), player.get('score'))
+            result += f"\n{player.get('name')}-------------------------{player.get('score')}"
+        
+        print(result)
 
 
 firstGame = Game('Guess or Die')
@@ -287,7 +304,11 @@ thirdGame.add_questions(questions3)
 thirdGame.add_questions(questions1)
 thirdGame.add_questions(questions2)
 
-thirdGame.play()
+thirdGame.play('Nur')
+thirdGame.play('Amin')
+thirdGame.play('Omale')
 
 # Q4. Upgrade the game class to manage players:
 # there names, their scores and a leaderboard
+
+thirdGame.get_leaderboard()
