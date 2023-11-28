@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+number=0
+
+while number <10:
+    number +=1
+    print(number)
+=======
 number = 0
 
 while number < 10:
@@ -32,3 +39,4 @@ while playing:
     
     if index >= len(states):
         playing = False
+>>>>>>> 43f26411cf84295d9d48ec419004e9135f894b5a
