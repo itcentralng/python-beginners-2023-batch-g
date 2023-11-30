@@ -1,1 +1,6 @@
-Welcome to the dashboard</br><a href='/'>Home</a>
+<h1>Welcome to the dashboard</h1>
+<p>Name: {{session['user']['name']}}</p>
+<img style="max-width: 200px;" src="{{url_for('static', filename=session['user'].get('avatar'))}}"/>
+</br>
+</br>
+<a href='/'>Logout</a>
